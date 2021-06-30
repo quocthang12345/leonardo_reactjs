@@ -1,0 +1,519 @@
+{
+  "accessories": [
+    {
+      "id": 1,
+      "imgDisplay": "/accessories/day1.png",
+      "imgContinue": "/accessories/day1.1.png",
+      "name": "Dây nịt Messenger Ipad Camo",
+      "anotherName": "accessories-messsenge-ipad",
+      "model": "day",
+      "type": "accessories",
+      "price": "460.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 2,
+      "imgDisplay": "/accessories/day2.png",
+      "imgContinue": "/accessories/day2.1.png",
+      "name": "Dây nịt Mini Camo",
+      "anotherName": "accessories-mini",
+      "model": "day",
+      "type": "accessories",
+      "price": "290.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 3,
+      "imgDisplay": "/accessories/day3.png",
+      "imgContinue": "/accessories/day3.1.png",
+      "name": "Dây nịt Đeo Chéo Zumba Camo",
+      "anotherName": "accessories-zumba",
+      "model": "day",
+      "type": "accessories",
+      "price": "250.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 4,
+      "imgDisplay": "/accessories/day4.png",
+      "imgContinue": "/accessories/day4.1.png",
+      "name": "Dây nịt Grand Camo",
+      "anotherName": "accessories-grand",
+      "model": "day",
+      "type": "accessories",
+      "price": "360.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 5,
+      "imgDisplay": "/accessories/day5.png",
+      "imgContinue": "/accessories/day5.1.png",
+      "name": "Dây nịt Crossbody Camo",
+      "anotherName": "accessories-crossbody",
+      "model": "day",
+      "type": "accessories",
+      "price": "395.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 6,
+      "imgDisplay": "/accessories/day6.png",
+      "imgContinue": "/accessories/day6.1.png",
+      "name": "Dây nịt Zumba",
+      "anotherName": "accessories-zumba",
+      "model": "day",
+      "type": "accessories",
+      "price": "380.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 7,
+      "imgDisplay": "/accessories/day7.png",
+      "imgContinue": "/accessories/day7.1.png",
+      "name": "Dây nịt Oxford",
+      "anotherName": "accessories-oxford",
+      "model": "day",
+      "type": "accessories",
+      "price": "320.000₫",
+      "typeColor": [
+      ],
+      "listImg": [
+
+      ]
+    },
+    {
+      "id": 8,
+      "imgDisplay": "/accessories/day8.png",
+      "imgContinue": "/accessories/day8.1.png",
+      "name": "Dây nịt Lớn Zumba",
+      "anotherName": "accessories-big-zumba",
+      "model": "day",
+      "type": "accessories",
+      "price": "340.000₫",
+      "typeColor": [],
+      "listImg": []
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "imgDisplay": "/shoes/dep1.png",
+      "imgContinue": "/shoes/dep1.1.png",
+      "name": "Dép Messenger Ipad Camo",
+      "anotherName": "dep-messsenge-ipad",
+      "model": "dep",
+      "type": "shoes",
+      "price": "460.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 2,
+      "imgDisplay": "/shoes/dep2.png",
+      "imgContinue": "/shoes/dep2.1.png",
+      "name": "Dép Mini Camo",
+      "anotherName": "dep-mini",
+      "model": "dep",
+      "type": "shoes",
+      "price": "290.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 3,
+      "imgDisplay": "/shoes/dep3.png",
+      "imgContinue": "/shoes/dep3.1.png",
+      "name": "Dép Đeo Chéo Zumba Camo",
+      "anotherName": "dep-zumba",
+      "model": "dep",
+      "type": "shoes",
+      "price": "250.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 4,
+      "imgDisplay": "/shoes/dep4.png",
+      "imgContinue": "/shoes/dep4.1.png",
+      "name": "Dép Grand Camo",
+      "anotherName": "dep-grand",
+      "model": "dep",
+      "type": "shoes",
+      "price": "360.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 5,
+      "imgDisplay": "/shoes/dep5.png",
+      "imgContinue": "/shoes/dep5.1.png",
+      "name": "Dép Crossbody Camo",
+      "anotherName": "dep-crossbody",
+      "model": "dep",
+      "type": "shoes",
+      "price": "395.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 6,
+      "imgDisplay": "/shoes/dep6.png",
+      "imgContinue": "/shoes/dep6.1.png",
+      "name": "Dép Zumba",
+      "anotherName": "dep-zumba",
+      "model": "dep",
+      "type": "shoes",
+      "price": "380.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 7,
+      "imgDisplay": "/shoes/dep7.png",
+      "imgContinue": "/shoes/dep7.1.png",
+      "name": "Dép Oxford",
+      "anotherName": "dep-oxford",
+      "model": "dep",
+      "type": "shoes",
+      "price": "320.000₫",
+      "typeColor": [
+
+      ],
+      "listImg": [
+
+      ]
+    },
+    {
+      "id": 8,
+      "imgDisplay": "/shoes/dep8.png",
+      "imgContinue": "/shoes/dep8.1.png",
+      "name": "Dép Lớn Zumba",
+      "anotherName": "dep-big-zumba",
+      "model": "dep",
+      "type": "shoes",
+      "price": "340.000₫",
+      "typeColor": [],
+      "listImg": []
+    }
+  ],
+  "bag": [
+    {
+      "id": 1,
+      "imgDisplay": "/bags/tui1.png",
+      "imgContinue": "/bags/tui1.1.png",
+      "name": "Túi Messenger Ipad Camo",
+      "anotherName": "tui-messsenge-ipad",
+      "model": "tui",
+      "type": "bag",
+      "price": "460.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 2,
+      "imgDisplay": "/bags/tui2.png",
+      "imgContinue": "/bags/tui2.1.png",
+      "name": "Túi Mini Camo",
+      "anotherName": "tui-mini",
+      "model": "tui",
+      "type": "bag",
+      "price": "290.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 3,
+      "imgDisplay": "/bags/tui3.png",
+      "imgContinue": "/bags/tui3.1.png",
+      "name": "Túi Đeo Chéo Zumba Camo",
+      "anotherName": "tui-zumba",
+      "model": "tui",
+      "type": "bag",
+      "price": "250.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 4,
+      "imgDisplay": "/bags/tui4.png",
+      "imgContinue": "/bags/tui4.1.png",
+      "name": "Túi Grand Camo",
+      "anotherName": "tui-grand",
+      "model": "tui",
+      "type": "bag",
+      "price": "360.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 5,
+      "imgDisplay": "/bags/tui5.png",
+      "imgContinue": "/bags/tui5.1.png",
+      "name": "Túi Crossbody Camo",
+      "anotherName": "tui-crossbody",
+      "model": "tui",
+      "type": "bag",
+      "price": "395.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 6,
+      "imgDisplay": "/bags/tui6.png",
+      "imgContinue": "/bags/tui6.1.png",
+      "name": "Balo quai chéo Zumba",
+      "anotherName": "balo-zumba",
+      "model": "balo",
+      "type": "bag",
+      "price": "380.000₫",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 7,
+      "imgDisplay": "/bags/tui7.png",
+      "imgContinue": "/bags/tui7.1.png",
+      "name": "Túi Hộp Oxford",
+      "anotherName": "tui-oxford",
+      "model": "tui",
+      "type": "bag",
+      "price": "320.000₫",
+      "typeColor": [
+        {
+          "color": "gray",
+          "imgColor": "/bags/tui7.png"
+        },
+        {
+          "color": "black",
+          "imgColor": "/bags/tui7.1.black.png"
+        }
+      ],
+      "listImg": [
+        "tui1.1.1.png",
+        "tui1.1.2.png",
+        "tui1.1.3.png",
+        "tui1.1.4.png",
+        "tui1.1.5.png",
+        "tui1.1.6.png"
+      ]
+    },
+    {
+      "id": 8,
+      "imgDisplay": "/bags/tui8.png",
+      "imgContinue": "/bags/tui8.1.png",
+      "name": "Túi Đeo Chéo Lớn Zumba",
+      "anotherName": "tui-big-zumba",
+      "model": "tui",
+      "type": "bag",
+      "price": "340.000₫",
+      "typeColor": [],
+      "listImg": []
+    }
+  ],
+  "card": [
+    {
+      "id": 1,
+      "imgDisplay": "/card/card1.png",
+      "imgContinue": "/card/card1.1.png",
+      "name": "Ví Messenger Ipad Camo",
+      "anotherName": "card-messsenge-ipad",
+      "price": "460.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 2,
+      "imgDisplay": "/card/card2.png",
+      "imgContinue": "/card/card2.1.png",
+      "name": "Ví Mini Camo",
+      "anotherName": "card-mini",
+      "price": "290.000₫",
+      "model": "mini",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 3,
+      "imgDisplay": "/card/card3.png",
+      "imgContinue": "/card/card3.1.png",
+      "name": "Ví Đeo Chéo Zumba Camo",
+      "anotherName": "card-zumba",
+      "price": "250.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 4,
+      "imgDisplay": "/card/card4.png",
+      "imgContinue": "/card/card4.1.png",
+      "name": "Ví Grand Camo",
+      "anotherName": "card-grand",
+      "price": "360.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 5,
+      "imgDisplay": "/card/card5.png",
+      "imgContinue": "/card/card5.1.png",
+      "name": "Ví Crossbody Camo",
+      "anotherName": "card-crossbody",
+      "price": "395.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 6,
+      "imgDisplay": "/card/card6.png",
+      "imgContinue": "/card/card6.1.png",
+      "name": "Ví quai chéo Zumba",
+      "anotherName": "card-zumba",
+      "price": "380.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 7,
+      "imgDisplay": "/card/card7.png",
+      "imgContinue": "/card/card7.1.png",
+      "name": "Ví Hộp Oxford",
+      "anotherName": "card-oxford",
+      "price": "320.000₫",
+      "model": "card",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    },
+    {
+      "id": 8,
+      "imgDisplay": "/card/card8.png",
+      "imgContinue": "/card/card8.1.png",
+      "name": "Ví Đeo Chéo Lớn Zumba",
+      "anotherName": "card-big-zumba",
+      "price": "340.000₫",
+      "model": "normal",
+      "type": "card",
+      "typeColor": [],
+      "listImg": []
+    }
+  ],
+  "menu": {
+    "listMenuOfMen": {
+      "Card": [
+        "Normal Wallet",
+        "Long Wallet",
+        "Mini Wallet",
+        "Card Wallet",
+        "See All"
+      ],
+      "Shoes": [
+        "Vans",
+        "Balengacia",
+        "Nike",
+        "Adidas",
+        "See All"
+      ],
+      "Bag": [
+        "Fjallraven Kanken",
+        "Crumpler",
+        "Jack Wolfskin",
+        "The North Face",
+        "See All"
+      ],
+      "Accessories": [
+        "Case",
+        "Charger Cord",
+        "Headphone",
+        "Micro",
+        "See All"
+      ]
+    },
+    "listMenuOfWoMen": {
+      "Shirt": [
+        "Normal Shirt",
+        "Long Shirt",
+        "Short Shirt",
+        "Skirt",
+        "See All"
+      ],
+      "Trousers": [
+        "Normal Trousers",
+        "Long Trousers",
+        "Nike",
+        "Adidas",
+        "See All"
+      ],
+      "Bags": [
+        "Fjallraven Kanken",
+        "Crumpler",
+        "Jack Wolfskin",
+        "The North Face",
+        "See All"
+      ],
+      "Accessories": [
+        "Case",
+        "Charger Cord",
+        "Headphone",
+        "Micro",
+        "See All"
+      ]
+    }
+  },
+  "listJourney": [
+    {
+      "title": "The early days",
+      "img": "journey-9.jpg",
+      "description": [
+        "The idea and ambition to establish the name Leonardo - a brand developed by Vietnamese people began to be formed by a group of young enthusiastic people. And does anyone expect, it is a restart for the strong development of Leonardo in the future."
+      ]
+    },
+    {
+      "title": "First Success",
+      "img": "journey-10.jpg",
+      "description": [
+        "The fashion lines of Leonardo approached and quickly captured the hearts of many Vietnamese consumers, thanks to the variety of models and good product quality."
+      ]
+    },
+    {
+      "title": "Step Change",
+      "img": "journey-11.jpg",
+      "description": [
+        "The first two stores respectively opened in Ho Chi Minh (No. 284 Pastuer) and Hanoi (No. 8 Tran Quoc Toan). This is an important premise for future strong developments."
+      ]
+    },
+    {
+      "title": "A New Chapter",
+      "img": "journey-12.jpg",
+      "description": [
+        "Following the success, the 3rd (348C CMT8) and 4th (244 Tran Hung Dao) stores officially came into operation, marking a breakthrough of Leonardo, opening a new promising stage. ."
+      ]
+    },
+    {
+      "title": "The Present",
+      "img": "journey-13.jpg",
+      "description": [
+        "We believe that with his efforts and enthusiasm, Leonardo will certainly go far in the future.",
+        "And for that, certainly indispensable for all of you - one of the prerequisites for our success.",
+        "Thank you for always accompanying Leonardo and let's continue to write this beautiful story together."
+      ]
+    }
+  ],
+  "cart": []
+}

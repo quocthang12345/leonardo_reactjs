@@ -1,0 +1,203 @@
+.section-spacing{
+    padding: 80px 0px;
+    height: auto;
+    width: 100%;
+    font-family: 'Gramond Premier Pro Medium Caption';
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 1px solid #e0e0e0;
+}
+
+.title-list-item{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.small-title{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.main-title > button{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-title  button:after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 2px;
+    height: 1px;
+    width: 0;
+    background-color: black;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+/* .main-title button:focus::after{
+    width: 100%;
+    background-color: black;
+} */
+
+.main-title .IsActive::after{
+    width: 100%;
+    background-color: black;
+}
+
+.btn:focus{
+    box-shadow: none !important;
+}
+
+
+@keyframes dropdown-animation{
+        
+        0%{
+            transform: translateY(4%);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0%);
+            opacity: 1;
+        }
+}
+
+@keyframes hidden-animation{
+    0%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(4%);
+        opacity: 0 ;
+
+    }
+}
+
+
+
+
+.wrapper-list-item{
+    padding:0 100px 0 50px !important;
+    animation : dropdown-animation 1s;
+}
+
+.display-hidden{
+    padding: 0 100px 0 50px !important;
+    animation: hidden-animation 1s;
+}
+
+.disable-show{
+    display: none;
+}
+
+
+
+.card-spacing{
+    padding-left: 60px !important;
+    margin-bottom: 60px !important;
+
+}
+
+.card-style{
+    border: none;
+}
+
+.title-price-style{
+    font-weight: 500;
+    font-size: 13px;
+    font-family: 'Gramond Premier Pro Medium Caption';
+    font-style: normal;
+    text-align: center;
+}
+
+.button-group > label{
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 15px 5px 0;
+    vertical-align: top;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.button-group input[type='radio'] {
+    display: none;
+  }
+  
+.button-group label{
+    font-weight: normal;
+}
+  
+.button-group label:before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+  }
+
+.button-group input[type=radio]:checked + label:after{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    content: " ";
+    display: block;
+    border: 1px solid !important;
+}
+
+.button-group .black::before{
+    background-color:black;
+}
+
+
+.button-group .gray::before{
+    background-color:gray;
+}
+
+
+
+.button-all{
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.button-all .see-all-style{
+    padding: 10px 50px !important;
+    border-radius: 0 !important;
+    background-color: black !important;
+    border: 1px solid black !important;
+    color: white ;
+    -webkit-animation: all 0.1s ease-in-out;
+    animation: all 0.1s ease-in-out;
+    
+}
+
+.button-all .slide-style{
+    padding: 10px 50px !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+    color: black !important;
+    -webkit-animation: all 0.1s ease-in-out;
+    animation: all 0.1s ease-in-out;
+}
+
+.button-group{
+    display:inline-block;
+}
+

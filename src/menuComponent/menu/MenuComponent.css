@@ -1,0 +1,268 @@
+  
+
+.top-menu{
+    padding:20px 60px 20px 220px;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar-menu{
+    float: right;
+}
+
+.sidebar-menu .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.logo-nav a{
+    color: black;
+    float: right;
+}
+
+.logo-nav a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+
+}
+
+.nav-link{
+    margin:5px;
+    color:black;
+}
+
+
+
+.menu-dropdown{
+    border-bottom: 0.1px solid #e2dada8e;
+}
+
+
+.dropdown-item{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: auto;
+    z-index: 10;
+    background-color: #fff !important;
+    padding: 0 !important;
+
+}
+
+.dropdown-item:hover{
+    background-color: #fff !important;
+
+}
+
+.dropdown-item:active{
+    background-color: #fff !important;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.dropdown-hidden{
+    display: none;
+}
+.dropdown-item > .item-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 50px 20px 50px;
+    height: auto;
+    border-bottom: 0.1px solid #e2dada8e;
+}
+
+.item-menu > ul {
+    list-style: none;
+}
+
+.list-item li{
+    margin-bottom: 20px;
+}
+
+.list-item .title-list-item{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    
+}
+
+.animation-link{
+    margin-right: 5px;
+    position: relative;
+    border-radius: 5px;
+    padding: 0;
+}
+
+
+.animation-link:after{
+    content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top:5px;
+    background-color: black;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.animation-link:hover:after{
+    width: 100%;
+    background-color: black;
+}
+
+.nav-link:hover{
+    color:black;
+    opacity: 0.6;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding:30px 30px 30px 60px;
+    height: auto;
+    border-bottom: 0.1px solid #e2dada8e;
+}
+
+.input-text:focus{
+    outline: none;
+}
+
+.hidden-input{
+    display: none;
+}
+
+.show-input{
+    display: block;
+}
+
+.modal .modal-dialog {
+    height: 100%;
+    padding:0;
+    margin:0;
+    float:right;
+    width:auto;
+}
+.modal .modal-content {
+    height: 100%;
+    background-clip: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.modal-show.fade {
+    transform: translateX(10%) ;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    will-change: transform;
+}
+
+.modal-show.show {
+    transform: translateX(0%);
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.modal.fade .modal-dialog {
+    transition: none !important;
+    transform: none !important;
+}
+
+.modal-backdrop{
+    left: -50vw !important;
+    width: 150vw !important;
+}
+
+.modal-header{
+    padding: 24px 32px !important;
+}
+
+.modal .modal-footer{
+    justify-content: flex-start;
+    padding: 16px 0 16px 28px !important;
+}
+
+.modal .modal-body{
+    overflow-y:scroll;
+    padding: 1rem 1rem 0 0  !important;
+}
+
+
+.text-cart{
+    width: 40px;
+    margin: 0;
+    height: fit-content;
+}
+
+.cart-calc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-delete-cart{
+    padding: 0;
+    background: #fff;
+    border: 0;
+}
+
+.item-cart{
+    margin-bottom: 20px;
+}
+
+.textarea-add-note{
+    border: 0.25 solid rgb(212, 211, 211);
+    background: transparent;
+    padding: 10px;
+}
+
+.textarea-add-note:focus{
+    outline: none;
+}
+
+.btn-pay-cart{
+    margin-bottom: 0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-item-cart{
+    font-size: 14px;
+}
+
+.props-item-cart{
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.empty-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem;
+}

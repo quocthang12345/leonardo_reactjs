@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+  }
+.container-product-buy{
+    font-family: 'Gramond Premier Pro Medium Caption';
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    background: white;
+    line-height: 1.65;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+}
+
+.container-product-buy .width-product-buy{
+    margin: 0 0 0 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.width-product-buy img{
+    max-width: 550px;
+    max-height: 1100px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.wrapper-detail-product{
+    height: 100%;
+}
+
+.wrapper-detail-product .position-product-fixed{
+    padding-top: 50px;
+    width: fit-content;
+    height: 100%;
+    position: relative;
+}
+
+
+.wrapper-detail-product .detail-product{
+    margin: 0 100px -40px 50px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    max-width: 500px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.container-product-buy .btn-product-buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 250px;
+}
+
+.btn-product-buy a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(219, 212, 212);
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-product-buy a:focus{
+    background-color: black;
+    border: 2px solid black
+}
+
+.active-buy{
+    background-color: black !important;
+    border: 2px solid black !important;
+}
+
+.width-product-buy .wrapper-product-aside{
+    margin: 30px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.wrapper-product-aside .product-aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+.product-aside button{
+    width: 100%;
+    text-align: left;
+    padding: 30px 0;
+    background: white;
+    border: none;
+    border-top: 0.1px solid rgb(216, 211, 211);
+    border-bottom: 0.1px solid rgb(216, 211, 211);
+    font-size: 12px;
+    margin-left: 27px;
+}
+
+.product-aside .display-product-service{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-aside button:focus{
+    outline: none;
+}
+
+/* .product-aside button:focus .icon-collapse{
+    background-image: url("./img/remove.png");
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    transform: translate(0%, 0%) rotate(-180deg);
+} */
+
+
+.product-aside .icon-collapse{
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.product-aside .icon-expand{
+    background-image: url("./img/remove.png") !important;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    transform: translate(0%, 0%) rotate(-180deg);
+}
+
+.product-aside .icon-close{
+    background-image: url("./img/plus.png") !important;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    transform: translate(0%, 0%) rotate(0deg);
+}
+
+    

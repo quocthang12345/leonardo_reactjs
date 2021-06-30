@@ -1,0 +1,220 @@
+.wrapper-item-best{
+    margin: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item-best{
+    padding: 80px 0;
+    font-family: 'Gramond Premier Pro Medium Caption';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.img-item-best > img{
+    width: 85%;
+    height: auto;
+    box-shadow: 1em;
+}
+
+.list-info-item{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.title-best-item{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.name-best-item{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.price-best-item{
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.text-color{
+    font-size: 12px;
+    font-weight: 550;
+    text-overflow: ellipsis;
+    margin-top:25px;
+    margin-bottom: 0;
+}
+
+
+.button-group-item-best{
+    display:inline-block;
+    padding-bottom: 40px;
+}
+
+.button-group-item-best > label{
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 15px 5px 0;
+    vertical-align: top;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.button-group-item-best input[type='radio']{
+    display: none;
+  }
+  
+.button-group-item-best label{
+    font-weight: normal;
+}
+  
+.button-group-item-best label::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+  }
+
+/* .button-group-item-best input[type=radio]:checked + label::after{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    content: " ";
+    display: block;
+    border: 1px solid !important;
+} */
+
+.button-group-item-best .IsChecked + label::after{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    content: " ";
+    display: block;
+    border: 1px solid !important;
+}
+
+.button-group-item-best .black::before{
+    background-color:black;
+}
+
+.button-group-item-best .gray::before{
+    background-color:gray;
+}
+
+.display-btn-changeColor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.wrapper-count{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    white-space: nowrap;
+    margin-bottom: 25px;
+}
+
+.wrapper-count .btn-change-count{
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.wrapper-count .input-count{
+    border: none;
+    text-align: center;
+    width: 35px;
+}
+
+.wrapper-count .input-count:focus{
+    outline: none;
+}
+
+.btn-touch-item{
+    width: 90%;
+    margin-bottom: 25px;
+    padding:6px 24px;
+    border-radius: 0;
+    background-color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 530;
+    -webkit-animation: all 0.1s ease-in-out;
+    animation: all 0.1s ease-in-out;
+}
+
+.b-white{
+    color:black;
+    border: 1px solid rgb(202, 198, 198);
+}
+.b-white:hover{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.b-black:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(202, 198, 198);
+}
+
+.b-black{
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.text-detail{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    width: 75px;
+}
+
+.text-detail::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 2px;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.text-detail:hover::before{
+    width: 0%;
+}
+
+
+
+
